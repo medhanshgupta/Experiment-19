@@ -50,9 +50,9 @@ fig.update_layout(): Used to adjust the overall appearance of the chart, includi
 
 fig.show(): Renders the interactive figure directly within the Jupyter notebook or a web browser.
 
-Matplotlib-based charts (dendrogram, Venn diagram) produce static PNG images embedded inline in the notebook. They cannot be interacted with after rendering.
+#### Matplotlib-based charts (dendrogram, Venn diagram) produce static PNG images embedded inline in the notebook. They cannot be interacted with after rendering.
 
-Plotly-based charts (treemap, Sankey diagram, 3D scatter plot, radar chart) produce fully interactive HTML figures. Key interactive capabilities include:
+#### Plotly-based charts (treemap, Sankey diagram, 3D scatter plot, radar chart) produce fully interactive HTML figures. Key interactive capabilities include:
 
 Hover tooltips: Hovering over any element displays its label and value.
 Zoom and pan: The figure can be zoomed into any region.
